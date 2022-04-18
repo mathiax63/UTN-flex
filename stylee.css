@@ -1,0 +1,56 @@
+.add section article:first-child{
+    background-color: aqua;
+}
+.add section article:last-child{
+    background-color: blueviolet;
+}
+.add section article:nth-child(2){
+    background-color: yellow;
+}
+.add{
+    align-items: center;
+    display: flex;
+    justify-content: end;
+} 
+article{
+    padding:70px; 
+    text-align: center;
+   
+    
+}
+
+div{
+    margin: 10px 0px;
+}
+.add1 section{
+     display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.add1 section article:first-child{
+    background-color: yellowgreen;
+}
+.add1 section article:nth-child(2){
+    background-color: violet;
+}
+.add1 section article:last-child{
+    background-color: tomato;
+}
+.add1 section article{
+    width: 100%;
+}
+.add2 section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add2 section article:first-child{
+    background-color: yellowgreen;
+}
+.add2 section article:nth-child(2){
+    background-color: cyan;
+}
+.add2 section article:last-child{
+    background-color: red;
+}
